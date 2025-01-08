@@ -20,6 +20,7 @@
     "@types/mongoose": "^5.11.97",
     "@types/qs": "^6.9.17",
     "@types/serve-static": "^1.15.7",
+    "@types/ws": "^8.5.13",
     "amqplib": "^0.10.4",
     "bcrypt": "^5.1.1",
     "class-validator": "^0.14.1",
@@ -28,7 +29,8 @@
     "express": "^4.21.1",
     "kafkajs": "^2.2.4",
     "mongoose": "^8.8.2",
-    "typescript-project-cli": "^1.0.7"
+    "typescript-project-cli": "^1.0.7",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",

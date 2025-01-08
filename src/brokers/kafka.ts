@@ -22,6 +22,5 @@ export class KafkaClass {
         if (this.kafka) {
             
         } 
-
     }
 }
