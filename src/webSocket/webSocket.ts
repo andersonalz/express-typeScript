@@ -29,11 +29,11 @@ export class WEBSOCKET {
     }
 
     broadcast(message: string){
-           this.webSocket.clients.forEach((client: WebSocket) => {
+        this.webSocket.clients.forEach((client: WebSocket) => {
             if (client.readyState === WebSocket.OPEN) {
-                client.send(message);
+              client.send(message);
             }
-           })
+        })
     }
 }
   
